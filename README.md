@@ -5,3 +5,7 @@ Config files for current setup.  Some things are still a mess (i.e. vundle plugi
 Dependencies:
 
 bspwm, sxhkd, xdo, sutils (battery,volume), yabar, vundle, ranger ,rtv, neofetch, tmux, mpd, ncmpcpp
+
+Screenshot:
+
+![alt tag](http://i.imgur.com/aIbAs62.png)
