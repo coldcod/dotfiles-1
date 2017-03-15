@@ -1,0 +1,17 @@
+###Directories###
+.vimperator/info/
+.ncmpcpp/lyrics/
+fontconfig/conf.d
+.vim/bundle/Vundle.vim
+
+###Files###
+.ncmpcpp/error.log
+ranger/bookmarks
+ranger/commands_full.py
+ranger/commands.py
+ranger/history
+ranger/tagged
+redshift.conf
+rtv/history.log
+rtv/refresh-token
+.vim/.netrwhist

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ "$(volume | awk '{print $2}')" -ge 50 ]; then
+	echo " $(volume | awk '{print $2}')"
+elif [ "$(volume | awk '{print $2}')" -eq 0 ]; then
+	echo " $(volume | awk '{print $2}')"
+else
+	echo " $(volume | awk '{print $2}')"
+fi
+

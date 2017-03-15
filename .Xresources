@@ -1,0 +1,8 @@
+#include "base16-tomorrow-night.256.xresources"
+
+!Xft.dpi: 160
+
+! URxvt config
+URxvt.scrollstyle: plain
+URxvt.scrollBar: false
+URxvt.font: xft:hack:size=10
