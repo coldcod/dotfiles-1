@@ -4,7 +4,7 @@ if [ "$(battery | awk '{print $1}')" == "Full" ]; then
 	echo " $(battery | awk '{print $1}')"
 elif [ "$(battery | awk '{print $1}')" == "Charging" ]; then 
 	echo " $(battery | awk '{print $2}')"
-elif [ "$(battery | awk '{print $2}')" -le "75" ]; then
+elif [ "$(battery | awk '{print $2}')" -ge "75" ]; then
 	echo " $(battery | awk '{print $2}')"
 elif [ "$(battery | awk '{print $2}')" -eq "50" ]; then
 	echo " $(battery | awk '{print $2}')"
